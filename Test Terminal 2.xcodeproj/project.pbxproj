@@ -21,6 +21,7 @@
 		3DAB48FD1A2A0C9400DCBB41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAB48DF1A2A0C9200DCBB41 /* UIKit.framework */; };
 		3DAB49051A2A0C9400DCBB41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DAB49031A2A0C9400DCBB41 /* InfoPlist.strings */; };
 		3DAB49071A2A0C9500DCBB41 /* Test_Terminal_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB49061A2A0C9500DCBB41 /* Test_Terminal_2Tests.m */; };
+		3DAB49121A2A0E6E00DCBB41 /* Test Terminal 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB49111A2A0E6E00DCBB41 /* Test Terminal 2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3DAB49021A2A0C9400DCBB41 /* Test Terminal 2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test Terminal 2Tests-Info.plist"; sourceTree = "<group>"; };
 		3DAB49041A2A0C9400DCBB41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3DAB49061A2A0C9500DCBB41 /* Test_Terminal_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_Terminal_2Tests.m; sourceTree = "<group>"; };
+		3DAB49101A2A0E6E00DCBB41 /* Test Terminal 2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Test Terminal 2.h"; sourceTree = "<group>"; };
+		3DAB49111A2A0E6E00DCBB41 /* Test Terminal 2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Test Terminal 2.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		3DAB48CF1A2A0C9200DCBB41 = {
 			isa = PBXGroup;
 			children = (
+				3DAB49101A2A0E6E00DCBB41 /* Test Terminal 2.h */,
+				3DAB49111A2A0E6E00DCBB41 /* Test Terminal 2.m */,
 				3DAB48E11A2A0C9200DCBB41 /* Test Terminal 2 */,
 				3DAB49001A2A0C9400DCBB41 /* Test Terminal 2Tests */,
 				3DAB48DA1A2A0C9200DCBB41 /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				3DAB48F21A2A0C9300DCBB41 /* ViewController.m in Sources */,
 				3DAB48EC1A2A0C9300DCBB41 /* AppDelegate.m in Sources */,
+				3DAB49121A2A0E6E00DCBB41 /* Test Terminal 2.m in Sources */,
 				3DAB48E81A2A0C9200DCBB41 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +462,7 @@
 				3DAB490C1A2A0C9500DCBB41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DAB490D1A2A0C9500DCBB41 /* Build configuration list for PBXNativeTarget "Test Terminal 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				3DAB490F1A2A0C9500DCBB41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
